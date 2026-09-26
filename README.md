@@ -1,5 +1,7 @@
 # 《7HE CODE》Windows 复活版
 
+<b>简体中文</b> ｜ <a href="README.en.md">English</a>
+
 把一款已下架的 iOS 游戏，重新在 Windows 上跑起来。
 
 本仓库提供**完整可运行的 Windows 版本**，以及把它救活的全过程记录、所有修复脚本。
@@ -118,7 +120,8 @@ iOS 的光照贴图是无 alpha 的 RGB24 / PVRTC_RGB4，数据按 ×2 存；搬
 
 ```
 7HE-CODE-PC-Revival/
-├── README.md                     本文件
+├── README.md                     本文件（简体中文）
+├── README.en.md                  English version
 ├── 7HE-CODE-PC-Revival.zip       完整可运行游戏（解压即玩）
 ├── assets/                       README 用图
 ├── docs/
