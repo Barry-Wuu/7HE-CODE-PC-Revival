@@ -189,11 +189,10 @@ To verify without launching the game: load the patched assembly with the same ge
 - All rights to the game itself belong to its original author and rights holders. This repository claims no rights over the game content. It is provided for study, research and personal archival use only — **commercial use is prohibited**.
 - If a rights holder objects to this repository, please get in touch and it will be taken down immediately.
 
-This repository is hosted at three addresses with identical content — use whichever one is reachable:
+This repository is hosted at two addresses with identical content — use whichever one is reachable:
 
-- <https://github.com/Barry-Wuu/7HE-CODE-PC-Revival> (GitHub, primary)
+- <https://github.com/Barry-Wuu/7HE-CODE-PC-Revival> (GitHub)
 - <https://gitcode.com/Barry_Wu_/7HE-CODE-PC-Revival> (GitCode, direct access from mainland China)
-- <https://github.com/Barry-Wu/7HE-CODE-PC-Revival> (GitHub mirror; may be unreachable while that account is restricted)
 
 ## Tools used
 
