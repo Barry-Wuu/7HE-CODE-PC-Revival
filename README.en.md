@@ -33,7 +33,7 @@ It was not revived by rebuilding the project, but by **grafting an engine shell*
 ### 1. Get the repository
 
 ```bash
-git clone https://github.com/Barry-Wu/7HE-CODE-PC-Revival.git
+git clone https://github.com/Barry-Wuu/7HE-CODE-PC-Revival.git
 ```
 
 Or click **Code → Download ZIP** on this page.

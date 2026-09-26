@@ -33,7 +33,7 @@
 ### 1. 拿到仓库
 
 ```bash
-git clone https://github.com/Barry-Wu/7HE-CODE-PC-Revival.git
+git clone https://github.com/Barry-Wuu/7HE-CODE-PC-Revival.git
 ```
 
 或者直接在网页上点右上角 **Code → Download ZIP**。
