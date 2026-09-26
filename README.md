@@ -189,6 +189,11 @@ python lm_fix_global.py --alpha 0.36 --apply   # 光照贴图 RGBM 修复
 - 游戏本体的著作权归原作者与权利方所有。本仓库不对游戏内容主张任何权利，仅供学习、研究与个人保存使用，**禁止任何商业用途**。
 - 若权利方认为本仓库不妥，请联系删除，会立即配合处理。
 
+本仓库同时托管在两个地址，内容完全一致：
+
+- <https://github.com/Barry-Wuu/7HE-CODE-PC-Revival> （主）
+- <https://github.com/Barry-Wu/7HE-CODE-PC-Revival> （镜像；该账号状态受限时可能打不开）
+
 ## 用到的工具
 
 [UnityPy](https://github.com/K0lb3/UnityPy)（含 Unity 3.4 / 格式 v8 兼容补丁）、[texture2ddecoder](https://github.com/K0lb3/texture2ddecoder)、[AssetRipper](https://github.com/AssetRipper/AssetRipper)、Unity 3.4.2 自带的 Mono 2.0 运行时与 `gmcs`。

@@ -189,6 +189,11 @@ To verify without launching the game: load the patched assembly with the same ge
 - All rights to the game itself belong to its original author and rights holders. This repository claims no rights over the game content. It is provided for study, research and personal archival use only — **commercial use is prohibited**.
 - If a rights holder objects to this repository, please get in touch and it will be taken down immediately.
 
+This repository is hosted at two addresses with identical content:
+
+- <https://github.com/Barry-Wuu/7HE-CODE-PC-Revival> (primary)
+- <https://github.com/Barry-Wu/7HE-CODE-PC-Revival> (mirror; may be unreachable while that account is restricted)
+
 ## Tools used
 
 [UnityPy](https://github.com/K0lb3/UnityPy) (with a Unity 3.4 / format v8 compatibility patch), [texture2ddecoder](https://github.com/K0lb3/texture2ddecoder), [AssetRipper](https://github.com/AssetRipper/AssetRipper), and the Mono 2.0 runtime plus `gmcs` bundled with Unity 3.4.2.
