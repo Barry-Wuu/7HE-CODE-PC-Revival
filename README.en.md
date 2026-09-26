@@ -8,6 +8,21 @@ This repository ships a **complete, runnable Windows build**, together with the 
 
 ---
 
+## First credit: where the ipa came from (ipatool)
+
+Everything here depends on **getting the original ipa** — and *7HE CODE* had long been pulled from the App Store, unbuyable and unsearchable.
+
+That step was done with [ipatool](https://github.com/majd/ipatool) (v2.6.0):
+
+1. `ipatool list-purchases` exported all **272 previously purchased apps** on the Apple ID, and an iTunes lookup check across **three storefronts (CN / US / JP)** narrowed it down to **77 apps delisted in all three**. For those, no account anywhere can obtain them from the store any more — the only remaining route is the existing purchase entitlement.
+2. `ipatool download -i <app-id> --purchase` then uses exactly that entitlement to pull the ipa **while the app is delisted**.
+
+*7HE CODE* is the **first case that proved this route works** — both ipa builds (v1.0, 65.6 MB; v2.0, 51.9 MB) came from it. Without it there would be no source data, and none of the engine-shell grafting, texture conversion or lightmap repair would have been possible.
+
+> Notes for reproducing: `ipatool auth login -e <your Apple ID>` (password input is hidden; the 2FA code goes to your mailbox); `ipatool search` fails for delisted apps — that is expected, **download by numeric app-id** instead; if it answers "not owned", that account never bought the app and this route is closed.
+
+---
+
 ## What this is
 
 *7HE CODE* is an iOS game built with Unity 3.4.2 (Mono lineage). It was pulled from the App Store long ago and is no longer obtainable through any official channel — a textbook piece of lost media.

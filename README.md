@@ -8,6 +8,21 @@
 
 ---
 
+## 第一功：ipa 是怎么拿到的（ipatool）
+
+这个项目能成立，前提是**拿到原始 ipa** —— 而《7HE CODE》早已下架，商店里搜不到、也买不到。
+
+这一步用的是 [ipatool](https://github.com/majd/ipatool)（v2.6.0）：
+
+1. `ipatool list-purchases` 把该 Apple ID 名下 **272 个历史已购应用**全量导出，再用 iTunes lookup API 做 CN / US / JP **三区在架核验** → 筛出 **77 个三大区全部下架**的应用。这些应用全球任何账号都无法再从商店获取，只剩「已购授权」这一条路。
+2. `ipatool download -i <app-id> --purchase` 正是靠这份已购授权，在**已下架状态**下把 ipa 拉了下来。
+
+《7HE CODE》就是验证这条通道可行的**第一个案例** —— 双版本 ipa（v1.0 65.6 MB / v2.0 51.9 MB）都由此而来。没有它就没有源文件，后面的引擎壳缝合、贴图转换、光照修复全部无从谈起。
+
+> 复刻要点：`ipatool auth login -e <你的 Apple ID>`（密码为隐藏输入，2FA 验证码发到邮箱）；对已下架应用 `ipatool search` 会失败，属正常现象，**直接用数字 app-id 下载**即可；若返回 not owned，说明该账号从未购买过，这条路对你关闭。
+
+---
+
 ## 这是什么
 
 《7HE CODE》是一款 Unity 3.4.2 引擎、Mono 血统的 iOS 游戏。原版早已从 App Store 下架，官方渠道无法获得，属于典型的失传媒体（lost media）。
