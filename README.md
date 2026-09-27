@@ -48,7 +48,7 @@
 ### 1. 拿到仓库
 
 ```bash
-git clone https://github.com/Barry-Wuu/7HE-CODE-PC-Revival.git
+git clone https://github.com/Barry-Wuu/7HE-CODE-Win11-Revival.git
 ```
 
 或者直接在网页上点右上角 **Code → Download ZIP**。
@@ -206,8 +206,8 @@ python lm_fix_global.py --alpha 0.36 --apply   # 光照贴图 RGBM 修复
 
 本仓库同时托管在两个地址，内容完全一致，哪个打得开就用哪个：
 
-- <https://github.com/Barry-Wuu/7HE-CODE-PC-Revival> （GitHub）
-- <https://gitcode.com/Barry_Wu_/7HE-CODE-PC-Revival> （GitCode，国内直连，GitHub 打不开时用它）
+- <https://github.com/Barry-Wuu/7HE-CODE-Win11-Revival> （GitHub）
+- <https://gitcode.com/Barry_Wu_/7HE-CODE-Win11-Revival> （GitCode，国内直连，GitHub 打不开时用它）
 
 ## 用到的工具
 

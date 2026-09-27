@@ -48,7 +48,7 @@ It was not revived by rebuilding the project, but by **grafting an engine shell*
 ### 1. Get the repository
 
 ```bash
-git clone https://github.com/Barry-Wuu/7HE-CODE-PC-Revival.git
+git clone https://github.com/Barry-Wuu/7HE-CODE-Win11-Revival.git
 ```
 
 Or click **Code → Download ZIP** on this page.
@@ -206,8 +206,8 @@ To verify without launching the game: load the patched assembly with the same ge
 
 This repository is hosted at two addresses with identical content — use whichever one is reachable:
 
-- <https://github.com/Barry-Wuu/7HE-CODE-PC-Revival> (GitHub)
-- <https://gitcode.com/Barry_Wu_/7HE-CODE-PC-Revival> (GitCode, direct access from mainland China)
+- <https://github.com/Barry-Wuu/7HE-CODE-Win11-Revival> (GitHub)
+- <https://gitcode.com/Barry_Wu_/7HE-CODE-Win11-Revival> (GitCode, direct access from mainland China)
 
 ## Tools used
 
