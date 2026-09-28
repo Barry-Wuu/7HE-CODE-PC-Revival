@@ -2,7 +2,6 @@
 
 <b>简体中文</b> ｜ <a href="README.en.md">English</a>
 > **📦 完整可运行程序包 `7HE-CODE-PC-Revival.zip`（约 38.5 MB）已移入 [Releases](https://github.com/Barry-Wuu/7HE-CODE-Win11-Revival/releases)，不再存放在仓库根目录。需要 Windows 版请从发行版页面下载。**
-> **📦 完整可运行程序包 `7HE-CODE-PC-Revival.zip`（约 38.5 MB）已移入 [Releases](https://github.com/Barry-Wuu/7HE-CODE-Win11-Revival/releases)，不再存放在仓库根目录。需要 Windows 版请从发行版页面下载。**
 
 把一款已下架的 iOS 游戏，重新在 Windows 上跑起来。
 
