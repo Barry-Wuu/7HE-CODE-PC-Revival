@@ -1,6 +1,7 @@
 # 7HE CODE — Windows Revival
 
 <a href="README.md">简体中文</a> ｜ <b>English</b>
+> **📦 The complete runnable build `7HE-CODE-PC-Revival.zip` (~38.5 MB) has been moved to [Releases](https://github.com/Barry-Wuu/7HE-CODE-Win11-Revival/releases); it is no longer in the repo root. Download it from the Releases page.**
 
 Bringing a delisted iOS game back to life on Windows.
 
